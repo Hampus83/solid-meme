@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: #5c5656;
+}
+
+.wrapper {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pic {
+   background-image: url(/"assets/Resor-till-Chile-med-Nygren-Lind-resebyrå-konst-på-dörr.jpg");
+
+   
+}
+
+.menu {
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu-nav {
+    padding-left: 50px;
+}
+
+.align-left {
+   float: left;
+   margin-left: 50px;
+   font-weight: bolder;
+}
+
+.align-right {
+    float: right;
+    margin-right: 50px;
+    
+}
